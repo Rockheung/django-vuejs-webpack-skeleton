@@ -1,0 +1,11 @@
+{% load render_bundle from webpack_loader %}
+<html>
+  <head>
+    <title>Django + Vuejs using vue cli 3</title>
+  </head>
+  <body>
+    {% block content %}
+    {% endblock %}
+    {% render_bundle 'app' %}
+  </body>
+</html>
