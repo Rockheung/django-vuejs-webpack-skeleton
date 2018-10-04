@@ -9,7 +9,10 @@ pip install -r requirements.txt
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+python manage.py runserver
 ```
+
+And go url running django development server!
 
 ### Compiles and minifies for production
 ```
