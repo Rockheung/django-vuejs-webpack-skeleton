@@ -39,5 +39,4 @@ media
 # End of https://www.gitignore.io/api/django
 
 webpack-stats.json
-public/
-dist/
+/public

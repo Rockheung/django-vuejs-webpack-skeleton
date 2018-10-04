@@ -1,8 +1,9 @@
-# django-vuejs-vuecli-3-skeleton
+# django-vuejs-skeleton
 
 ## Project setup
 ```
 npm install
+pip install -r requirements.txt
 ```
 
 ### Compiles and hot-reloads for development

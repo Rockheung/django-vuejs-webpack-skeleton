@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2> Now you can use HOT RELOAD feature of webpack <br>on Django development server. </h2>
+    <h3> Fully empty django project and fresh Vue.js created using vue cli 3. </h3>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the

@@ -8,20 +8,18 @@ function resolve (dir) {
 module.exports = {
   baseUrl: "http://localhost:8080/",
 
-  configureWebpack: {
-    devServer: {
-      headers: {
+  devServer: {
+    headers: {
         "Access-Control-Allow-Origin":"\*"
-      }
     },
+  },
+
+  configureWebpack: {
 
     context: __dirname,
-      //entry: {app: ['./app']},
 
     output: {
-      //path: require("path").resolve('./assets/bundles/'), -> outputDir: 'dist'
         filename: "[name]-[hash].js",
-      //publicPath: 'http://localhost:3000/assets/bundles/', -> baseUrl: '/'
     },
 
     resolve: {

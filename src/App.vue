@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Django * Vue.js Collabration"/>
+    <HelloWorld msg="Welcome to Your Django X Vue.js Collaboration"/>
   </div>
 </template>
 
